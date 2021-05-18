@@ -1,4 +1,4 @@
-package model;
+package com.contactura.contactura.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,22 +9,22 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-//Criação de cosntrutores padrões
 @AllArgsConstructor
-//Cria contrutor
 @NoArgsConstructor
-//Cria todos os Gets e sets, assim como o Hashcode, etc
 @Data
-//Define quando uma classe é uma entidade do banco de dados
 @Entity
-public class Contact {
-	
+public class ContacturaUser {
+
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
+	private String username;
+	private String password;
 	private String name;
-	private String email;
-	private String phone;
-
+	private boolean admin;
+	
+		
+	
+	
 }
