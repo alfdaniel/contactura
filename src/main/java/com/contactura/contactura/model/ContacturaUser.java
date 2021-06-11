@@ -24,7 +24,6 @@ public class ContacturaUser {
 	private String name;
 	private boolean admin;
 	
-		
 	
 	
 }

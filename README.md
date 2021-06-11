@@ -2,6 +2,6 @@
 Contactura - Lista de contatos telefônicos
 Treinamento Fuctura - Flexpag
 
-## Algumas Tecnologias utilizadas
+## Algumas Tecnologias utilizadas:
 - Java
 - Mysql
